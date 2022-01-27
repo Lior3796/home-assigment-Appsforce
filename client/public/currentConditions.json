@@ -1,0 +1,27 @@
+{
+	"current": [
+		{
+			"LocalObservationDateTime": "2021-11-09T00:16:00+09:00",
+			"EpochTime": 1636384560,
+			"WeatherText": "Mostly cloudy",
+			"WeatherIcon": 38,
+			"HasPrecipitation": false,
+			"PrecipitationType": null,
+			"IsDayTime": false,
+			"Temperature": {
+				"Metric": {
+					"Value": 15.8,
+					"Unit": "C",
+					"UnitType": 17
+				},
+				"Imperial": {
+					"Value": 61,
+					"Unit": "F",
+					"UnitType": 18
+				}
+			},
+			"MobileLink": "http://www.accuweather.com/en/jp/tokyo/226396/current-weather/226396?lang=en-us",
+			"Link": "http://www.accuweather.com/en/jp/tokyo/226396/current-weather/226396?lang=en-us"
+		}
+	]
+}

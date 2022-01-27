@@ -1,0 +1,20 @@
+.users-list-container {
+	@media #{$sm},#{$md},#{$lg} {
+		grid-template-rows: repeat(9, 1fr);
+		overflow-y: hidden;
+		position: absolute;
+		top: 10vh;
+	}
+	@media #{$sm} {
+		width: 100%;
+		padding-left: 5%;
+	}
+	@media #{$md} {
+		padding-left: 10%;
+		width: 80%;
+	}
+	@media #{$lg} {
+		width: 60%;
+		padding-left: 15%;
+	}
+}

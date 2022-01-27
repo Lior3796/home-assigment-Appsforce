@@ -1,0 +1,37 @@
+* {
+	text-decoration: none;
+	list-style: none;
+	font-family: "Assistant", sans-serif;
+}
+:root {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	text-decoration: none;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+.container {
+	@media #{$sm},#{$md},#{$lg} {
+		position: relative;
+		width: 100%;
+	}
+	@media #{$sm} {
+		height: 200vh;
+	}
+	@media #{$md} {
+		height: 150vh;
+	}
+	@media #{$lg} {
+		height: 100vh;
+	}
+}
+.light {
+	@extend .container;
+	@include light;
+}
+.dark {
+	@extend .container;
+	@include dark;
+}
