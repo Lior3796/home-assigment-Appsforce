@@ -28,9 +28,9 @@ export const ModalCard = ({ open, handleClose, style }) => {
         const emailValue = emailRef.current.children[1].children[0].value;
         const locationValue = locationRef.current.children[1].children[0].value;
 
-        if (nameValue.length < 3) return;
-        if (!emailValue.includes("@")) return;
-        if (locationValue.length === "") return;
+        if (nameValue.length < 3) return toast("Name is not valid");;
+        if (!emailValue.includes("@") || !emailValue.includes(".c")) return toast("email is not valid");;
+        if (locationValue.length === 0) return toast("location is not valid");;
         toast("User saved");
         const newUser = {
             name: nameValue,
