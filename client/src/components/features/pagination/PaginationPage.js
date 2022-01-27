@@ -7,7 +7,6 @@ import '../../styles/style.css';
 
 export const PaginationPage = ({ setPage }) => {
     const changePage = (item) => {
-        console.log(item.page);
         setPage(item.page);
         return < PaginationItem {...item} />
     }
