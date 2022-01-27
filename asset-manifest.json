@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/appsForce/static/css/main.22aa9276.chunk.css",
+    "main.js": "/appsForce/static/js/main.9c1cb1f0.chunk.js",
+    "main.js.map": "/appsForce/static/js/main.9c1cb1f0.chunk.js.map",
+    "runtime-main.js": "/appsForce/static/js/runtime-main.d96e18bf.js",
+    "runtime-main.js.map": "/appsForce/static/js/runtime-main.d96e18bf.js.map",
+    "static/css/2.f4c56af9.chunk.css": "/appsForce/static/css/2.f4c56af9.chunk.css",
+    "static/js/2.9ae835c3.chunk.js": "/appsForce/static/js/2.9ae835c3.chunk.js",
+    "static/js/2.9ae835c3.chunk.js.map": "/appsForce/static/js/2.9ae835c3.chunk.js.map",
+    "static/js/3.54cfdf50.chunk.js": "/appsForce/static/js/3.54cfdf50.chunk.js",
+    "static/js/3.54cfdf50.chunk.js.map": "/appsForce/static/js/3.54cfdf50.chunk.js.map",
+    "index.html": "/appsForce/index.html",
+    "static/css/2.f4c56af9.chunk.css.map": "/appsForce/static/css/2.f4c56af9.chunk.css.map",
+    "static/css/main.22aa9276.chunk.css.map": "/appsForce/static/css/main.22aa9276.chunk.css.map",
+    "static/js/2.9ae835c3.chunk.js.LICENSE.txt": "/appsForce/static/js/2.9ae835c3.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/appsForce/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d96e18bf.js",
+    "static/css/2.f4c56af9.chunk.css",
+    "static/js/2.9ae835c3.chunk.js",
+    "static/css/main.22aa9276.chunk.css",
+    "static/js/main.9c1cb1f0.chunk.js"
+  ]
+}
