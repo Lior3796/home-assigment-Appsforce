@@ -22,6 +22,7 @@ export const AppRouter = () => {
                 <Routes>
                     <Route path="/" exact element={<Home />} />
                     <Route path="/AddUser" element={<NewUser />} />
+                    <Route path="/appsForce" element={<Home />} />
                 </Routes>
                 <Footer />
             </>

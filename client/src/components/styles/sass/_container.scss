@@ -11,6 +11,11 @@
 	box-sizing: border-box;
 	overflow-x: hidden;
 }
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
 
 .container {
 	@media #{$sm},#{$md},#{$lg} {

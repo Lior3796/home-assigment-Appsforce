@@ -8,6 +8,8 @@ import { Stack } from '@mui/material';
 import { useUserListContext } from '../../../context/context';
 import { FILTER_EDIT_USERS } from '../../../redux/actions/types';
 import { useUserContext } from '../../../context/context';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export const ModalCard = ({ open, handleClose, style }) => {
     const nameRef = useRef("");
@@ -29,6 +31,7 @@ export const ModalCard = ({ open, handleClose, style }) => {
         if (nameValue.length < 3) return;
         if (!emailValue.includes("@")) return;
         if (locationValue.length === "") return;
+        toast("User saved");
         const newUser = {
             name: nameValue,
             email: emailValue,
@@ -75,10 +78,12 @@ export const ModalCard = ({ open, handleClose, style }) => {
                     />
                     <Stack spacing={2}>
                         <Button type="submit">Save</Button>
-                        <Button>Cancel</Button>
+                        <Button onClick={handleClose}>Cancel</Button>
                     </Stack>
                 </Box>
             </Modal>
+            <ToastContainer />
+
         </div>
     );
 }
