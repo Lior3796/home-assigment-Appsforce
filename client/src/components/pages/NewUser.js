@@ -3,6 +3,8 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import { Stack } from '@mui/material';
+import ListItemAvatar from '@mui/material/ListItemAvatar';
+import Avatar from '@mui/material/Avatar';
 import '../styles/style.css';
 
 
@@ -13,8 +15,6 @@ export const NewUser = () => {
         alignItems: "center",
         width: "100%",
         flexDirection: "column",
-
-
     }
     return (
         <form className="form-container">
@@ -22,27 +22,29 @@ export const NewUser = () => {
                 sx={style}
                 noValidate
                 autoComplete="off">
+                <ListItemAvatar >
+                    <Avatar sx={{ width: "70px", height: "70px" }} />
+                </ListItemAvatar>
                 <TextField
-                    // ref={nameRef}
                     id="outlined"
                     label="Name"
                     placeholder="Hello World"
                     sx={{ m: 2 }}
                 />
                 <TextField
-                    // ref={emailRef}
                     id="outlined"
                     label="Email"
                     placeholder="Hello World"
                     sx={{ m: 2 }}
                 />
                 <TextField
-                    // ref={locationRef}
                     id="outlined"
                     label="Location"
                     placeholder="Hello World"
                     sx={{ m: 2 }}
                 />
+
+
                 <Stack spacing={2}>
                     <Button type="submit">Save</Button>
                     <Button>Cancel</Button>

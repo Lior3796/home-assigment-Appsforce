@@ -12,7 +12,6 @@ import { Home } from '../../pages/Home';
 import { NewUser } from '../../pages/NewUser';
 
 
-
 export const AppRouter = () => {
 
     return (
@@ -22,7 +21,7 @@ export const AppRouter = () => {
                 <Routes>
                     <Route path="/" exact element={<Home />} />
                     <Route path="/AddUser" element={<NewUser />} />
-                    <Route path="/appsForce" element={<Home />} />
+                    <Route path="/home-assigment-Appsforce" element={<Home />} />
                 </Routes>
                 <Footer />
             </>

@@ -22,8 +22,6 @@
 
 body {
   width: 100%;
-  height: 100%;
-  margin: 0;
 }
 
 @media (min-width: 0px) and (max-width: 460px), (min-width: 461px) and (max-width: 720px), (min-width: 721px) {
@@ -47,7 +45,7 @@ body {
 
 @media (min-width: 721px) {
   .container, .light, .dark {
-    height: 100vh;
+    height: 150vh;
   }
 }
 

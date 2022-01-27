@@ -12,7 +12,6 @@ import { useUserContext } from '../../../context/context';
 export const UserList = () => {
     const { item } = useUserContext();
     return (
-
         <>
             <ListItem >
                 <ListItemText
